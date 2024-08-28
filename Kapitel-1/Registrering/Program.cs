@@ -18,6 +18,8 @@ if (förnamn == "filip")
     Console.WriteLine("vad trevligt att du är tillbaka");
     
 }
+
+
 if (efternamn == "lindström")
 {
     Console.WriteLine("vackert efternamn!");
