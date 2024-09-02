@@ -1,4 +1,6 @@
-﻿Console.InputEncoding = System.Text.Encoding.Unicode;
+﻿using System.Reflection.Metadata;
+
+Console.InputEncoding = System.Text.Encoding.Unicode;
 Console.OutputEncoding =System.Text.Encoding.Unicode;
 Console.Clear();
 Console.WriteLine("Välkommen till vår lucktext!");
@@ -8,7 +10,7 @@ Console.WriteLine("Ange bästa fotbolls lag:");
 string bästaFotbollsLag = Console.ReadLine();
 
 
-if(bästaFotbollsLag == "Arsenal")
+if(bästaFotbollsLag == "Barcelona")
 {
     Console.WriteLine("HELT FEL VAL!!!");
 }
@@ -31,3 +33,8 @@ if (bästaFotbollsSpelare == "Saka")
 
 Console.WriteLine("Ange Hur många mål gjorde " + bästaFotbollsSpelare);
 string HurMångaMålGjordebästaFotbollsSpelare = Console.ReadLine();
+
+if (HurMångaMålGjordebästaFotbollsSpelare == "15")
+{
+   Console.WriteLine("ball knowledge"); 
+}
