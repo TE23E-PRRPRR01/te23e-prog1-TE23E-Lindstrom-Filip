@@ -7,6 +7,13 @@ string förnamn = Console.ReadLine();
 Console.WriteLine("Ange bästa fotbolls lag:");
 string bästaFotbollsLag = Console.ReadLine();
 
+
+if(bästaFotbollsLag == "Arsenal")
+{
+    Console.WriteLine("HELT FEL VAL!!!");
+}
+
+
 if (bästaFotbollsLag == "Arsenal")
 {
     Console.WriteLine("HELT RÄTT VAL!!!");
