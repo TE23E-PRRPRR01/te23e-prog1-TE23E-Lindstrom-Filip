@@ -1,15 +1,14 @@
-﻿
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Hello, World!");
 
-Console.Write("Arsenal är bäst? (Y/N) ");
+Console.Write("Arsenal är bäst? (Yes/No) ");
 String answer = Console.ReadLine();
 
 // Kolla om svart är ja eller nej
-if (answer == "Y")
+if (answer == "Yes")
 { // Y
-    Console.Write("Vinner vi ligan? (Y/N)");
+    Console.Write("Vinner vi ligan? (Yes/No)");
     answer = Console.ReadLine();
-    if (answer == "Y")
+    if (answer == "Yes")
     {
         Console.WriteLine("Du har helt rätt");
     }
@@ -20,9 +19,9 @@ if (answer == "Y")
 }  
 else 
 { // NO
-    Console.Write("Tottenham supporter? (Y/N)");
-    answer = Console.ReadLine();
-    if (answer == "Y")
+    Console.Write("Tottenham supporter? (Yes/No)");
+    answer = Console.ReadLine() .ToLower(); // .ToUpper()
+    if (answer == "Yes")
     {
         Console.WriteLine("Tänk om dina livsval!");
     }
