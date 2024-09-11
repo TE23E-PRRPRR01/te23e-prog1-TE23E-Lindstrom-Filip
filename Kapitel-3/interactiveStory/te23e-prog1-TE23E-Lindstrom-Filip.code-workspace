@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		}
+	],
+    "settings": {
+        "workbench.colorTheme": "Default Light+",
+        "workbench.iconTheme": "vscode-great-icons",
+        "workbench.colorCustomizations": {
+            "activityBar.background": "#3B1D61",
+            "titleBar.activeBackground": "#532888",
+            "titleBar.activeForeground": "#FBF9FD"
+        },
+        "workbench.editorAssociations": {
+            "*.md": "vscode.markdown.preview.editor"
+        },
+        "explorer.compactFolders": false,
+        "explorer.sortOrderLexicographicOptions": "unicode",
+        "files.associations": {
+            "*.xaml": "xml"
+        },
+        "git.confirmSync": false,
+        "csharp.suppressBuildAssetsNotification": true,
+        "csharp.debug.console": "externalTerminal",
+        "redhat.telemetry.enabled": false
+    }
+}
