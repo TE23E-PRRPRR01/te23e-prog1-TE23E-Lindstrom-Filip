@@ -49,8 +49,6 @@ else
 
 
 
-
-
 Console.WriteLine("""
 Fråga 2: Hur många mål gjorde Bukayo Saka förra säsongen? (A/B/C/D)
 A: 14
