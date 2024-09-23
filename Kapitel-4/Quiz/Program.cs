@@ -32,7 +32,7 @@ A: 22
 B: 23
 C: 24
 D: 21
-""");
+"""); 
 
 Console.Write("Ange svar: ");
 
