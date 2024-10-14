@@ -15,6 +15,8 @@ while (true)
 
     int nettolön = 0;
 
+    int skattesats = 0;
+
     if (bruttolön < 10000 || bruttolön > 1000000)
 
     {
@@ -26,12 +28,14 @@ while (true)
     {
         Console.WriteLine("fattig");
         nettolön = bruttolön * (100 - 22) / 100;
+        skattesats = 22;
     }
 
     else if (bruttolön > 145000 || bruttolön <= 515000)
     {
         Console.WriteLine("medelklass");
         nettolön = bruttolön * (100 - 33) / 100;
+        skattesats = 33;
     }
 
 
@@ -39,10 +43,11 @@ while (true)
     {
         Console.WriteLine("Grattis du är rik!");
         nettolön = bruttolön * (100 - 53) / 100;
+        skattesats = 53;
     }
 
 
-    Console.WriteLine($"Din nettolön är {nettolön}KR. Uträkning baserad på bruttolön {bruttolön}KR och marginalskatten. ");
+    Console.WriteLine($"Din nettolön är {nettolön}KR. Uträkning baserad på bruttolön {bruttolön}KR och {skattesats}. ");
 
 
 
