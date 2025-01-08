@@ -39,7 +39,7 @@ for (int i = 0; i < 2;)
     listaActionSpel.Add(Console.ReadLine());
 }
 
-Console.WriteLine("Nus er listan ut såhär");
+Console.WriteLine("Nu ser listan ut såhär");
 
 foreach (var namn in listaActionSpel)
 {

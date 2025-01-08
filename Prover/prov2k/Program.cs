@@ -15,7 +15,8 @@ while (true)
     {
         break;
     }
-    else{
+    else
+    {
         Console.WriteLine("Mission failed! du mattade inte in ett heltal");
     }
 }
@@ -32,15 +33,13 @@ while (true)
 4. Avsluta
 Välj ett alternativ:
 """);
-Console.WriteLine("");
 
     string val = Console.ReadLine();
-
 
     if (val == "1")
     {
 
-        for (int i = 0; i < antalfilmer;)
+        for (int i = 0; i < antal;)
         {
             i++;
             Console.Write($"ange film {i}:");
@@ -71,7 +70,7 @@ Console.WriteLine("");
                 Console.WriteLine(filmnamn);
             }
         }
-    } 
+    }
 
     else if (val == "4")
     {
