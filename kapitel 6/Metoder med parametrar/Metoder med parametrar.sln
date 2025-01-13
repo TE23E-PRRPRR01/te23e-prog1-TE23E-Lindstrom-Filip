@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metoder med parametrar", "Metoder med parametrar.csproj", "{5157FB07-2B0C-4492-8FE5-F5753976174B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5157FB07-2B0C-4492-8FE5-F5753976174B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5157FB07-2B0C-4492-8FE5-F5753976174B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5157FB07-2B0C-4492-8FE5-F5753976174B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5157FB07-2B0C-4492-8FE5-F5753976174B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C50B27D-C6D7-4BA1-B21A-3E26ADB5ECC4}
+	EndGlobalSection
+EndGlobal
