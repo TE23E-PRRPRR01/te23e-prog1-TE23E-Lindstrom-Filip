@@ -25,6 +25,8 @@ megaskibiditoilet(4);
 
 temperaturomvandling(30);
 
+kastatärning(6);
+
 static void skibitoilet(string meddelande)
 {
     for (int i = 0; i < meddelande.Length; i++)
