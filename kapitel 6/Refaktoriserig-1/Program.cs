@@ -39,6 +39,8 @@ while (true)
 /* **********************************************
  *  Metoder 
  ********************************************** */
+
+ 
 /// <summary>
 /// Generel metod för att läsa in heltal
 /// </summary>
